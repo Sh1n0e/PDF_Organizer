@@ -5,12 +5,12 @@ import datetime
 import shutil
 
 # ----------------- File Locations ----------------------------------------#
-source = "/Users/Shawn/Downloads"
-target = "/Users/Shawn/Documents/PDF"
+source = "/Users/Shawn/Downloads" 
+target = "/Users/Shawn/Documents/PDF" #Simply change the destination to wherever you want certain files
 # -------------------------------------------------------------------------#
 
 #------------------ Parameters --------------------------------------------#
-Extensions = ("pdf",)  # Use a tuple for multiple extensions
+Extensions = ("pdf",)  # I use PDF here but you can easily change it to docx, pdf, jpg etc etc
 DATE_PATTERN = r".*(20\d\d)-?([01]\d)-?([0123]\d).*"
 FOL_Sep = "/"
 # -------------------------------------------------------------------------#
